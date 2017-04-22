@@ -1,4 +1,7 @@
-# test coverage for  [seneca (v3.3.0)](http://senecajs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-seneca.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-seneca) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-seneca.svg)](https://travis-ci.org/npmtest/node-npmtest-seneca)
+# npmtest-seneca
+
+#### basic test coverage for  [seneca (v3.3.0)](http://senecajs.org)  [![npm package](https://img.shields.io/npm/v/npmtest-seneca.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-seneca) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-seneca.svg)](https://travis-ci.org/npmtest/node-npmtest-seneca)
+
 #### A Microservices Framework for Node.js
 
 [![NPM](https://nodei.co/npm/seneca.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/seneca)
@@ -260,7 +263,8 @@
         "smoke": "node test/stubs/launch.js",
         "test": "lab -v -P test -L -t 80"
     },
-    "version": "3.3.0"
+    "version": "3.3.0",
+    "bin": {}
 }
 ```
 
